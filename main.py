@@ -42,6 +42,7 @@ def sort_character_dict(character_dict):
 
 	return character_count_list
 
+# Prints a report of the books's word count and character count
 def print_report(book_path, word_count, sorted_char_dict):
 	print(f"--- Begin report of {book_path} ---")
 	print(f"{word_count} words found in the document \n")
